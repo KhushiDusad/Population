@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 import os
 
 # Load the world map GeoJSON file
-world = gpd.read_file('custom.geo.json')
+world = gpd.read_file('geojson/custom.geo.json')
 
 # Load your population dataset
 population = pd.read_csv('World-population-by-countries-dataset.csv')
@@ -43,7 +43,7 @@ def get_historical_population_data(country_name):
 
 # Train the linear regression model if it doesn't exist or load it if it does
 def get_or_train_model(country_name):
-    model_filename = f'{country_name}_population_model.pkl'
+    model_filename = f'prediction_models/{country_name}_population_model.pkl'
     if os.path.exists(model_filename):
         # Model exists, load it
         return joblib.load(model_filename)
