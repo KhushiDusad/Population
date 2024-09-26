@@ -15,4 +15,4 @@ The Population Prediction and Visualization App is a web-based tool designed to 
 - Click the "Predict Population" button to view the predicted population for the selected country.
 - Explore historical population trends in the interactive line chart.
 
-You can find the dataset [here](https://www.kaggle.com/datasets/kaggleashwin/population-dataset)
+You can find the dataset [here](https://databank.worldbank.org/reports.aspx?source=2&series=SP.POP.TOTL&country=#)
