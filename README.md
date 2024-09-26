@@ -6,7 +6,7 @@ The Population Prediction and Visualization App is a web-based tool designed to 
 - Visualize historical population data for any country.
 - Explore geospatial visualizations, including choropleth maps.
 - Compare population trends between different countries.
-- Informative note about data limitations (trained on data up to 2021).
+- Informative note about data limitations (trained on data up to 2023).
 
 ## Usage
 - Select a year using the slider to visualize the world population map for that year.
